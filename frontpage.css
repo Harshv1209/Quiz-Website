@@ -1,0 +1,220 @@
+/* .pandawalk{
+    background: url(pandawalk.png);
+    width: 250px;
+    height: 330px;
+    margin-top: 150px;
+    animation: walk 2s steps(12) , forward 3s linear ;
+}
+@keyframes walk{
+    0%{
+        background-position:0px ;
+
+    }
+    100%{
+        background-position: 3000px;
+
+    }
+}
+@keyframes forward{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(1200px);
+    }
+} */
+/* *{
+    background-color: palevioletred;
+} */
+body{
+    background: linear-gradient(#9dc183, #98bf64);
+
+}
+.back{
+    background-image: url("bamboocover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.panda1 img{
+    height: 600px;
+    width: 300px;
+    animation-name: panda1;
+    animation-duration: 10s;
+    animation-delay: 1s;   
+    opacity: 0;
+}
+@keyframes panda1{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.cloud1 img{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 150px;
+    right: 250px;
+    animation-name: cloud1;
+    animation-duration: 8s;
+    animation-delay: 3s;
+    opacity: 0;
+}
+@keyframes cloud1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.panda2 img{
+    position: absolute;
+    top: 435px;
+    left: 450px;
+    opacity: 0;
+    animation-name: panda2;
+    animation-duration: 10s;
+    animation-delay: 11s;
+    /* transition: 2s; */
+}
+@keyframes panda2{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.cloud2 img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 250px;
+    right: 370px;
+    animation-name: cloud2;
+    animation-duration: 8s;
+    animation-delay: 13s;
+    opacity: 0;
+}
+@keyframes cloud2{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.panda3 img{
+    position: absolute;
+    top: 450px;
+    left: 550px;
+    opacity: 0;
+    animation-name: panda3;
+    animation-duration: 10s;
+    animation-delay: 23s;
+    /* transition: 2s; */
+}
+@keyframes panda3{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.cloud3 img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 200px;
+    right: 450px;
+    animation-name: cloud3;
+    animation-duration: 8s;
+    animation-delay: 24s;
+    opacity: 0;
+}
+@keyframes cloud3{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.panda4 img{
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    top: 350px;
+    left: 100px;
+    opacity: 0;
+    animation-name: panda4;
+    animation-duration: 10s;
+    animation-delay: 34s;
+    /* transition: 2s; */
+}
+@keyframes panda4{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.cloud4 img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 200px;
+    left: 350px;
+    animation-name: cloud4;
+    animation-duration: 8s;
+    animation-delay: 35s;
+    opacity: 0;
+}
+@keyframes cloud4{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.panda5 img{
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    top: 400px;
+    left: 1000px;
+    opacity: 0;
+    animation-name: panda5;
+    animation-duration: 10s;
+    animation-delay: 46s;
+    /* transition: 2s; */
+}
+@keyframes panda5{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
